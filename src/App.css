@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(36, 106, 141);
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  /* width: 40%; */
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: all .4s ease;
+  padding: 10px 40px;
+}
+
+.nav-links li:hover {
+  background-color:rgb(7, 61, 88);
+}
+
+
+
